@@ -1,0 +1,62 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #ff00dcff;
+    color: #333;
+}
+.container {
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar {
+    width: 35%;
+    background-color: #d62d2d;
+    color: white;
+    padding: 20px;
+}
+
+    .sidebar h1 {
+        font-size: 24px;
+        margin-top: 10px;
+    }
+
+.foto {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.sidebar a {
+    color: white;
+    text-decoration: underline;
+}
+
+.habilidades, .idiomas {
+    margin-top: 20px;
+}
+
+    .habilidades ul, .conteudo ul {
+        padding-left: 20px;
+    }
+
+main.conteudo {
+    width: 65%;
+    padding: 30px;
+    background-color: #ffffff;
+}
+
+main h2 {
+    color: #ffffff;
+    margin-top: 0;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+ul li {
+    margin-bottom: 8px;
+}
